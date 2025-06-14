@@ -146,13 +146,14 @@
   align-items: center;
 }
 
-.section-title h2 {
-  font: var(--bold-48px);
-  color: var(--white);
-}
-
+.section-title h2,
 .section-title-works h2 {
   font: var(--bold-48px);
+}
+.section-title h2 {
+  color: var(--white);
+}
+.section-title-works h2 {
   color: var(--green);
 }
 
