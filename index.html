@@ -252,7 +252,10 @@
       });
 
       $(".flat-button").click(function () {
-        $(".works-card.hidden").slice(0, 3).removeClass("hidden");
+  $(".works-card.hidden").removeClass("hidden");
+  $(this).hide();
+});
+
 
         // すべて表示されたらボタンを非表示にする
         if ($(".works-card.hidden").length === 0) {
