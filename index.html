@@ -167,7 +167,7 @@
             <span class="tag">Google Colaboratory</span>
           </div>
         </div>
-        <button class="flat-button">View More</a>
+        <a class="flat-button">View More</a>
         <!-- 追加の3作品（最初は非表示） -->
         <div class="works-card hidden">
           <img
@@ -251,7 +251,7 @@
         $(".header-site-menu").removeClass("is-active");
       });
 
-      $(".flat-button").on("click", function () {
+      $(".flat-button").click(function () {
         $(".works-card.hidden").slice(0, 3).removeClass("hidden");
 
 
